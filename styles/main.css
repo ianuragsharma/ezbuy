@@ -1,0 +1,19 @@
+.nav-container {
+  background-color: var(--bg-offgrey);
+  color: var(--text-primary);
+  background-color: var(--solid-white);
+  padding: 1rem;
+  border-bottom: 1px solid var(--bg-offgrey);
+}
+
+.nav-container > * {
+  margin: 0 auto;
+}
+
+.nav-container input {
+  width: 30%;
+  background-color: var(--bg-offgrey);
+}
+.nav-container li {
+  margin-left: 1.5rem;
+}
