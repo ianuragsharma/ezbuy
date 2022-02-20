@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anurag Sharma">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://element-ui.netlify.app/styles/utility.css">
+    <link rel="stylesheet" href="../styles/auth.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <nav class="nav-container flex-row">
+        <a href="../index.html">
+            <h5>ezBuy</h5>
+        </a>
+        <input name="name" type="text" class="input-area text-base " placeholder="Search...">
+        <ul class="flex-row">
+            <li>
+                <a href="">
+                    <div class="badge badge-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="badge badge-icon">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <div class="number  badge-secondary text-white">4</div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                    <div class="badge badge-icon">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <div class="number badge-secondary text-white">2</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="auth-container">
+        <h4 class="text-center">Signup</h4>
+
+        <div class="user-details flex-column">
+            <label for="email" class="input-label text-base">Email:</label>
+            <input name="email" type="email" class="input-area text-base" placeholder="Enter Email">
+
+            <label for="password" class="input-label text-base">Password:</label>
+            <input name="password" type="password" class="input-area text-base" required minlength="4"
+                placeholder="Enter Password">
+            <div class="flex-row">
+                <span><input type="checkbox" id="remember-me" name="remember-me" value="remember-me">
+                    <label for="remember-me">I accept all term and condition</label><br></span>
+
+
+            </div>
+            <button class="btn btn-solid-primary text-base text-white">Create New Account</button>
+            <button class="link-btn text-base ">
+                <a href="">Already have an account <i class="fa-solid fa-angle-right"></i></a>
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
