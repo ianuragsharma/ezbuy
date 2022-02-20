@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anurag Sharma">
+    <title>Wishlist | ezBuy</title>
+    <link rel="stylesheet" href="https://element-ui.netlify.app/styles/utility.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/wishlist.css">
+</head>
+
+<body>
+    <nav class="nav-container flex-row">
+        <a href="../index.html">
+            <h5>ezBuy</h5>
+        </a>
+        <input name="name" type="text" class="input-area text-base " placeholder="Search...">
+        <ul class="flex-row">
+            <li>
+                <a href="../pages/login.html">
+                    <div class="badge badge-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../pages/wishlist.html">
+                    <div class="badge badge-icon">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <div class="number  badge-secondary text-white">4</div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="../pages/cart.html">
+                    <div class="badge badge-icon">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <div class="number badge-secondary text-white">2</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="wishlist-container">
+            <h3 class="fw-500 wishlist-heading text-center">My Wishlist</h3>
+            <div class="wishlist-product flex-row">
+                <div class="vertical-card flex-column card-dismiss">
+                    <a href="" class="text-center"><i class="fas fa-times"></i></a>
+                    <img src="../asset/headphones.jpg" loading="lazy" alt="product-image">
+                    <div class="card-details-container">
+                        <h3 class="text-base">Sony</h3>
+                        <span class="text-xs">Wireless Noise Cancelling Bluetooth Headphones </span>
+                        <p class="card-price-info"> Rs.24,999 <del class="text-xs">Rs.30,000 </del> </p>
+                    </div>
+                    <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                            CART</button>
+                    </div>
+                </div>
+                <div class="vertical-card flex-column card-dismiss">
+                    <a href="" class="text-center"><i class="fas fa-times"></i></a>
+                    <img src="../asset/headphones.jpg" loading="lazy" alt="product-image">
+                    <div class="card-details-container">
+                        <h3 class="text-base">Sony</h3>
+                        <span class="text-xs">Wireless Noise Cancelling Bluetooth Headphones </span>
+                        <p class="card-price-info"> Rs.24,999 <del class="text-xs">Rs.30,000 </del> </p>
+                    </div>
+                    <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                            CART</button>
+                    </div>
+                </div>
+                <div class="vertical-card flex-column card-dismiss">
+                    <a href="" class="text-center"><i class="fas fa-times"></i></a>
+                    <img src="../asset/headphones.jpg" loading="lazy" alt="product-image">
+                    <div class="card-details-container">
+                        <h3 class="text-base">Sony</h3>
+                        <span class="text-xs">Wireless Noise Cancelling Bluetooth Headphones </span>
+                        <p class="card-price-info"> Rs.24,999 <del class="text-xs">Rs.30,000 </del> </p>
+                    </div>
+                    <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                            CART</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
