@@ -1,9 +1,9 @@
 .nav-container {
-  background-color: var(--bg-offgrey);
   color: var(--text-primary);
   background-color: var(--solid-white);
   padding: 1rem;
-  border-bottom: 1px solid var(--bg-offgrey);
+  width: 100%;
+  border-bottom: 2px solid var(--bg-offgrey);
 }
 
 .nav-container > * {
@@ -14,6 +14,69 @@
   width: 30%;
   background-color: var(--bg-offgrey);
 }
-.nav-container li {
+.nav-container li:not(:first-child) {
   margin-left: 1.5rem;
+}
+/* main  */
+.hero-banner {
+  height: 40vh;
+  width: 100%;
+  background-image: url("../asset/hero_iphone_13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-heading {
+  padding-top: 1rem;
+}
+
+/* trending section  */
+.container {
+  margin: 2rem 0rem;
+}
+.section-heading:before,
+.section-heading:after {
+  content: "";
+  flex-grow: 1;
+  border-top: 2px solid var(--dim-grey);
+  margin: auto 10px;
+}
+.product-list {
+  margin-top: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* browsing section  */
+.category-item {
+  margin-top: 1rem;
+  position: relative;
+  max-width: 13rem;
+  border: 2px solid var(--dim-grey);
+  border-radius: 5px;
+}
+.category-item:hover {
+  border: 5px solid var(--dim-grey);
+}
+.category-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: 900;
+  background-color: var(--dim-grey);
+}
+/* footer  */
+
+.footer {
+  padding: 1rem 0rem;
+  background-color: var(--brand-primary);
+}
+
+.footer .footer-item {
+  margin-top: 1rem;
+  justify-content: center;
+}
+.footer .footer-item > * {
+  margin: 0rem 1rem;
 }
