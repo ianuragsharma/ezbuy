@@ -34,3 +34,8 @@
 .card-dismiss > a:hover {
   color: var(--alert-red);
 }
+@media only screen and (max-width: 720px) {
+  .product-aside {
+    display: none;
+  }
+}
