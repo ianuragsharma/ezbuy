@@ -1,0 +1,36 @@
+/* product filter  */
+.product-aside {
+  width: 15rem;
+  height: 100vh;
+  overflow-y: hidden;
+  padding: 1.5rem;
+  float: left;
+  border-right: 2px solid var(--brand-secondary);
+}
+.product-aside > * {
+  margin: 1rem 0rem;
+}
+.filter-list {
+  border-top: 1px solid var(--brand-secondary);
+}
+.filter-list > * {
+  margin-top: 8px;
+}
+/* product page  */
+.product {
+  padding: 1rem;
+}
+.product-list {
+  padding: 2rem;
+}
+/* overwriting elemts-UI css  */
+.card-dismiss > a {
+  background-color: var(--dim-grey);
+  color: var(--solid-white);
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: 1.5rem;
+}
+.card-dismiss > a:hover {
+  color: var(--alert-red);
+}
