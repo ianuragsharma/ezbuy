@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anurag Sharma">
+    <title>Cart | ezBuy</title>
+    <link rel="stylesheet" href="https://element-ui.netlify.app/styles/utility.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/cart.css">
+</head>
+
+<body>
+    <nav class="nav-container flex-row">
+        <a href="../index.html">
+            <h5>ezBuy</h5>
+        </a>
+        <input name="name" type="text" class="input-area text-base " placeholder="Search...">
+        <ul class="flex-row">
+            <li>
+                <a href="../pages/login.html" title="Logout">
+                    <div class="badge badge-icon">
+                        <i class="fa-solid fa-arrow-right-from-bracket fa-lg"></i>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../pages/wishlist.html">
+                    <div class="badge badge-icon">
+                        <i class="fa-regular fa-heart fa-lg"></i>
+                        <div class="number  badge-secondary text-white">4</div>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="../pages/cart.html">
+                    <div class="badge badge-icon">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <div class="number badge-secondary text-white">2</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <h3 class="text-center cart-heading">Cart(2)</h3>
+    <section class="cart-container flex-row">
+        <div class="cart-products flex-row">
+            <div class="horizontal-card flex-row">
+                <img class="image-responsive" src="../asset/headphones.jpg" loading="lazy" alt="product image">
+                <div class="card-details-container ">
+                    <h3 class="text-xl">Sony Headphones</h3>
+                    <p class="product-details text-base fw-500">Rs.41,990 <del class="fw-300 text-sm">Rs.49,990</del>
+                    </p>
+                    <p class="text-base fw-400">16% off </p>
+                    <p class="product-details  fw-500">Quantity:
+                        <button class="quantity-btn"><i class="fa-solid fa-circle-plus fa-lg"></i></button>
+                        <input value="1" name="name" type="text" class="input-area text-sm text-center quantity-input">
+                        <button class="quantity-btn"><i class="fa-solid fa-circle-minus fa-lg"></i></button>
+
+                    </p>
+                    <div class="cart-btn flex-column">
+                        <button class="btn btn-outlined-secondary ">Remove From Cart</button>
+                        <button class="btn btn-solid-primary  text-white">Move to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="horizontal-card flex-row">
+                <img class="image-responsive" src="../asset/ipad-air.png" loading="lazy" alt="product image">
+                <div class="card-details-container ">
+                    <h3 class="text-xl">iPad Air</h3>
+                    <p class="product-details text-base fw-500">Rs.41,990 <del class="fw-300 text-sm">Rs.49,990</del>
+                    </p>
+                    <p class="text-base fw-400">16% off </p>
+                    <p class="product-details  fw-500">Quantity:
+                        <button class="quantity-btn"><i class="fa-solid fa-circle-plus fa-lg"></i></button>
+                        <input value="1" name="name" type="text" class="input-area text-sm text-center quantity-input">
+                        <button class="quantity-btn"><i class="fa-solid fa-circle-minus fa-lg"></i></button>
+
+                    </p>
+                    <div class="cart-btn flex-column">
+                        <button class="btn btn-outlined-secondary ">Remove From Cart</button>
+                        <button class="btn btn-solid-primary  text-white">Move to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="price-container">
+            <h4 class="fw-500 ">Price Details</h4>
+            <div class="price-breakdown">
+                <div class="flex-row price-details">
+                    <span>Price (2 items)</span>
+                    <span>Rs 4999</span>
+                </div>
+                <div class="flex-row price-details">
+                    <span>Discount (2 items)</span>
+                    <span>Rs 4999</span>
+                </div>
+                <div class="flex-row price-details">
+                    <span>Delivery Charges</span>
+                    <span>Rs 4999</span>
+                </div>
+                <div class="flex-row price-details">
+                    <span class="fw-500">Total Amount</span>
+                    <span class="fw-500">Rs 4999</span>
+                </div>
+            </div>
+            <p class="fw-500">You will save Rs.2000 on this order</p>
+            <button class="btn btn-solid-primary order-btn text-white">Place Order</button>
+        </div>
+    </section>
+</body>
+
+</html>
