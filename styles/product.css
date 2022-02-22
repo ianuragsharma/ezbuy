@@ -46,6 +46,9 @@
   .product-list {
     padding: 0rem;
   }
+  .product-list > * {
+    margin: 10px 0px;
+  }
   .product-heading {
     font-size: 1.3rem;
   }
