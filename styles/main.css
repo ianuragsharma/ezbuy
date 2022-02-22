@@ -43,7 +43,7 @@
 }
 .product-list {
   margin-top: 1rem;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 /* browsing section  */
@@ -79,4 +79,16 @@
 }
 .footer .footer-item > * {
   margin: 0rem 1rem;
+}
+@media screen and (max-width: 500px) {
+  .hero-heading {
+    font-size: 1.5rem;
+  }
+  .section-heading {
+    font-size: 1.3rem;
+  }
+  .vertical-card {
+    width: 10rem;
+    gap: 5px;
+  }
 }
